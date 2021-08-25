@@ -1,10 +1,35 @@
 h1 {
-  font-family: sans-serif;
-  text-align: center;
+  font-family: 'Lobster', cursive;  text-align: center;
+  color: white;
 }
 
 .s1 {
-  background: url("../Images/one.jpg");
+  background: url('../images/one.jpg');
   background-size: cover;
 }
-/*# sourceMappingURL=main.css.map */
+
+.s2 {
+  background: url('../images/two.jpg');
+  background-size: cover;
+}
+
+.s2 h1 {
+  text-align: left;
+  margin-left: 2em;
+  font-size: 4rem;
+}
+
+.s3 {
+  background: url('../images/three.jpg');
+  background-size: cover;
+}
+
+.s3 h1 {
+  text-align: left;
+  margin-left: 2em;
+  font-size: 2em;
+}
+
+span {
+  background: white !important;
+}
