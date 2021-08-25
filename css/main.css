@@ -3,6 +3,16 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-family: 'Lobster', cursive;  text-align: center;
+  color: white;
+}
+
+h3 {
+  font-family: 'Lobster', cursive;  text-align: center;
+  color: white;
+}
+
 .s1 {
   background: url('../images/one.jpg');
   background-size: cover;
@@ -28,6 +38,16 @@ h1 {
   text-align: left;
   margin-left: 2em;
   font-size: 2em;
+}
+
+.s3 h2 {
+  text-align: left;
+  margin-left: 2em;
+  font-size: 2em;
+}
+
+.s4 {
+  background: black;
 }
 
 span {
