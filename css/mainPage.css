@@ -4,22 +4,22 @@ h1 {
 }
 
 h2 {
-  font-family: 'Kaisei Tokumin', monospace;  text-align: center;
+  font-family: 'Anonymous Pro', monospace;  text-align: center;
   color: white;
 }
 
 h3 {
-  font-family: 'Kaisei Tokumin', monospace;  text-align: center;
+  font-family: 'Anonymous Pro', monospace;  text-align: center;
   color: white;
 }
 
 .p {
-  font-family: 'Kaisei Tokumin', monospace;  text-align: center;
+  font-family: 'Anonymous Pro', monospace;  text-align: center;
   color: white;
 }
 
 .s1 {
-  background-color: rgb(25,25,25);
+  background-color: rgb(25, 25, 25);
   background-size: cover;
 }
 
