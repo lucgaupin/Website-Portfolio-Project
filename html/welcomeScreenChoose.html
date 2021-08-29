@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Luc Gaupin</title>
+    <title>Welcome!</title>
   
     <!-- BOOTSTRAP 5.1.0 IMPORT -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
+    <!-- JQUERY IMPORT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
     <!-- LINKING HTML TO CSS FILE -->
     <link rel="stylesheet" href="../css/welcomePage.css">
 
@@ -21,13 +24,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div>
-        <div>
-            <h1>If you want english version of site... <a href="#">click here</a>.</h1>
+    <div class="container-flex">
+        <div id="eng" class="position-absolute top-50 start-50 translate-middle fade-in" style="height: 150px;">
+            <div>English Version... <a href="#">Click Here!</a></div>
         </div>
-        <div>
-            <h1>Si vous voulez la version française de la page...<a href="">cliquez ici</a>.</h1>
+        <div id="fr" class="position-absolute top-50 start-50 translate-middle fade-in delayed">
+            <div>La Version Française... <a href="#">Cliquez Ici!</a></div>
         </div>
     </div>
 </body>
